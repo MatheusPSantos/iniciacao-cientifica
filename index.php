@@ -14,25 +14,8 @@
 <body>
     <?php require_once 'inc/navbar.php'?>
     <div class="row">
-    
     <div class="container">
-        <form class="col s6 offset-s3 damat-form">
-            <div class="row">
-                <div class="input-field">
-                <i class="material-icons prefix">account_circle</i>
-                <input id="numero_siape" type="text" class="validate">
-                <label for="numero_siape">Número do Siape</label>
-                </div>
-                <div class="input-field">
-                <i class="material-icons prefix">vpn_key</i>
-                <input id="senha" type="password" class="validate">
-                <label for="senha">Senha</label>
-                </div>
-                <div class="row">
-                <a class="waves-effect waves-light btn col s6 offset-s3"><i class="material-icons right">send</i>Fazer Login</a>
-                </div>
-            </div>           
-        </form>
+        <?php require_once 'inc/login-form.php';?>
     </div>
   </div>
 </body>
