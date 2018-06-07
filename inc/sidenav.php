@@ -12,8 +12,29 @@
         </div>
     </li>
     <div class="row"></div>
-    <li><a href="#!"><span class="blue-text">Disciplinas</span></a></li>
-    <li><a href="#!"><span class="blue-text">Professores</span></a></li>
-    <li><a href="#!"><span class="blue-text">Respostas</span></a></li>
-    <li><a href="#!"><span class="blue-text">Gerar Grade</span></a></li>
+    <li>
+        <a href="#" onclick="addDiv('../paginas/cadastro-disciplina.php')" class="waves-effect waves-teal btn-flat">
+            <span class="blue-text">Cadastrar Disciplinas</span>
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="addDiv('../paginas/disciplinas.php')" class="waves-effect waves-teal btn-flat">
+            <span class="blue-text">Disciplinas Cadastradas</span>
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="addDiv('../paginas/cadastro-professor.php')" class="waves-effect waves-teal btn-flat">
+            <span class="blue-text">Cadastrar Professor</span>
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="addDiv('../paginas/professores.php')" class="waves-effect waves-teal btn-flat">
+            <span class="blue-text">Professores Cadastrados</span>
+        </a>
+    </li>
+    <li>
+        <a href="#" onclick="addDiv('../paginas/cadastro-disciplina.php')" class="waves-effect waves-teal btn-flat">
+            <span class="blue-text">Respostas</span>
+        </a>
+    </li>
 </ul>
